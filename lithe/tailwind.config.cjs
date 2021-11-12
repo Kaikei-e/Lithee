@@ -66,13 +66,13 @@ module.exports = {
 			black: '#000',
 
 			...buildPalette({
-				primary: '#b027b0',
-				secondary: '#009688',
-				error: '#f44336',
-				success: '#4caf50',
+				primary: '#FFF5EB',
+				secondary: '#DEEDF0',
+				error: '#F4C7AB',
+				success: '#B2B8A3',
 				alert: '#ff9800',
-				blue: '#2196f3',
-				dark: '#212121'
+				blue: '#0F52BA',
+				dark: '#002366'
 			}),
 
 			// brown: {
