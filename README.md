@@ -1,2 +1,2 @@
 # lithe-editor
-This is svelte/kit adn go/gin based simple markdown editor.
+This is svelte/kit and Go/gin based simple markdown editor.
