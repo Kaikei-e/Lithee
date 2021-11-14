@@ -7,20 +7,28 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons&display=swap"
 		rel="stylesheet" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<!-- Roboto -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" />
+	<!-- Roboto Mono -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
+	<link rel="stylesheet" href="/smui.css" media="(prefers-color-scheme: light)" />
+	<link rel="stylesheet" href="/smui-dark.css" media="screen and (prefers-color-scheme: dark)" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
 
 		
 
-		<link rel="modulepreload" href="/_app/start-87c6db05.js">
+		<link rel="modulepreload" href="/_app/start-f7788a6c.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-af0f2ef7.js">
-		<link rel="modulepreload" href="/_app/pages/__layout.svelte-9be2a6c1.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-7d275b1a.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-af46ff2d.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-ba62b4c4.js">
 		<link rel="stylesheet" href="/_app/assets/start-464e9d0a.css">
-		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-0c971a0b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-5566ae7f.css">
 
 		<script type="module">
-			import { start } from "/_app/start-87c6db05.js";
+			import { start } from "/_app/start-f7788a6c.js";
 			start({
 				target: document.body,
 				paths: {"base":"","assets":""},
@@ -33,8 +41,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/_app/pages/__layout.svelte-9be2a6c1.js"),
-						import("/_app/pages/index.svelte-7d275b1a.js")
+						import("/_app/pages/__layout.svelte-af46ff2d.js"),
+						import("/_app/pages/index.svelte-ba62b4c4.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -52,8 +60,10 @@
 
 
 <div class="bg-primary-900 w-full h-10"><p>Lithe Editor</p></div>
-<div class="flex space-x-1 ..."><div class="flex-1 ... bg-secondary-900 h-screen w-screen">1</div>
-  <div class="flex-1 ... bg-secondary-900 h-screen w-screen">2</div>
+<div class="flex space-x-1 ..."><div class="flex-1 ... bg-secondary-700 h-screen w-screen">Input
+		<div><div class="h-screen w-screen bg-secondary-700"></div></div></div>
+	<div class="flex-1 ... bg-secondary-900 h-screen w-screen">Output
+	</div>
 </div>
 
 
