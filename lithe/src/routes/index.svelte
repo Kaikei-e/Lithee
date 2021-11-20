@@ -1,22 +1,33 @@
 <script lang="ts">
+import Input from "$lib/input.svelte";
+import LayoutGrid, {Cell} from "@smui/layout-grid"
 
+let textInput;
 </script>
 
 <div class="bg-primary-900 w-full h-10">
 	<p>Lithe Editor</p>
 </div>
-<div class="flex space-x-1 ...">
-	<div class="flex-1 ... bg-secondary-700 h-screen w-screen">
-		Input
-		<div>
-      <div class=" h-screen w-screen bg-secondary-700">
-      </div>
+
+<LayoutGrid>
+	<Cell span={6}>
+		<div class="bg-secondary-700">
+			<p>Input</p>
+			<div>
+					<Input {textInput}/>
+				</div>
+			</div>
+	
+	</Cell>
+	<Cell span={6}>
+		<div class="bg-secondary-900">
+			<p>Output</p>
+			<div>{textInput}</div>
 		</div>
-	</div>
-	<div class="flex-1 ... bg-secondary-900 h-screen w-screen">
-		Output
-	</div>
-</div>
+	
+	</Cell>
+
+</LayoutGrid>
 
 <style>
 </style>

@@ -8,11 +8,19 @@ export default {
 			pages: '../svelteBuild',
 			assets: '../svelteBuild',
 			fallback: null
-		})
+		}),
+		/*
+		vite: {
+			ssr: {
+				include: ['@smui'],
+			},
+		}
+		*/
 	},
 	preprocess: [
 		preprocess({
 			postcss: true
 		})
-	]
+	],
+
 };
