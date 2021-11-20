@@ -5,13 +5,13 @@ import LayoutGrid, {Cell} from "@smui/layout-grid"
 let textInput;
 </script>
 
-<div class="bg-primary-900 w-full h-10">
+<div>
 	<p>Lithe Editor</p>
 </div>
 
 <LayoutGrid>
 	<Cell span={6}>
-		<div class="bg-secondary-700">
+		<div class="inputField">
 			<p>Input</p>
 			<div>
 					<Input {textInput}/>
@@ -20,7 +20,7 @@ let textInput;
 	
 	</Cell>
 	<Cell span={6}>
-		<div class="bg-secondary-900">
+		<div>
 			<p>Output</p>
 			<div>{textInput}</div>
 		</div>
@@ -30,4 +30,8 @@ let textInput;
 </LayoutGrid>
 
 <style>
+	.inputField{
+		background-color: #9eefff;
+	}
+
 </style>

@@ -1,13 +1,14 @@
 <script lang="ts">
+	import Textfield from '@smui/textfield';
+	import Icon from '@smui/textfield/icon';
+	import HelperText from '@smui/textfield/helper-text';
 
-  export let textInput;
+	export let textInput;
 </script>
 
 <div>
-  <input on:change="{textInput}"/>
+  <Textfield class="chaped-filled" />
 </div>
 
-
 <style>
-  
 </style>
