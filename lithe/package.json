@@ -17,7 +17,7 @@
 		"@material/menu": "^13.0.0",
 		"@material/theme": "^13.0.0",
 		"@sveltejs/adapter-static": "^1.0.0-next.21",
-		"@sveltejs/kit": "next",
+		"@sveltejs/kit": "^1.0.0-next.201",
 		"@tsconfig/svelte": "^2.0.1",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
@@ -41,8 +41,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@smui/banner": "^6.0.0-beta.4",
 		"@smui/layout-grid": "^6.0.0-beta.2",
 		"@smui/textfield": "^6.0.0-beta.2",
+		"@smui/top-app-bar": "^6.0.0-beta.4",
 		"install": "^0.13.0"
 	}
 }
