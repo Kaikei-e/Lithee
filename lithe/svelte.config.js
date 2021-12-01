@@ -9,13 +9,6 @@ export default {
 			assets: '../svelteBuild',
 			fallback: null
 		}),
-		/*
-		vite: {
-			ssr: {
-				include: ['@smui'],
-			},
-		}
-		*/
 	},
 	preprocess: [
 		preprocess({

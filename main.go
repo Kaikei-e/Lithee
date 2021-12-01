@@ -5,11 +5,14 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func main()  {
+func main() {
 	router := gin.Default()
 
 	router.Use(static.Serve("/", static.LocalFile("./svelteBuild", true)))
 
-	router.Run(":9000")
+	err := router.Run(":9000")
+	if err != nil {
+		return
+	}
 
 }

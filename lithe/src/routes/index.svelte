@@ -3,6 +3,8 @@ import Input from "$lib/input.svelte";
 import LayoutGrid, {Cell} from "@smui/layout-grid"
 
 let textInput;
+
+$: output = textInput
 </script>
 
 <div>
@@ -22,7 +24,7 @@ let textInput;
 	<Cell span={6}>
 		<div>
 			<p>Output</p>
-			<div>{textInput}</div>
+			<div>{output}</div>
 		</div>
 	
 	</Cell>
